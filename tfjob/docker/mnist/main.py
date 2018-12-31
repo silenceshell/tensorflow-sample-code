@@ -38,7 +38,7 @@ def train():
   mnist = input_data.read_data_sets(FLAGS.data_dir,
                                     one_hot=True,
                                     fake_data=FLAGS.fake_data,
-                                    source_url=https://silenceshell-1255345740.cos.ap-shanghai.myqcloud.com/)
+                                    source_url="https://silenceshell-1255345740.cos.ap-shanghai.myqcloud.com/")
 
   # Create a multilayer model.
 
